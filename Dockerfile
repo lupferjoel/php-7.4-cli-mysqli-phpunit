@@ -20,6 +20,6 @@ RUN wget https://phar.phpunit.de/phpunit-9.5.4.phar
 
 RUN chmod +x phpunit-9.5.4.phar
 
-RUN sudo mv phpunit-9.5.4.phar /usr/local/bin/phpunit
+RUN mv phpunit-9.5.4.phar /usr/local/bin/phpunit
 
 RUN phpunit --version
